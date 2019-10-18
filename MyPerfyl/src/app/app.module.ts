@@ -1,3 +1,4 @@
+import { CardComponent } from './card/card.component';
 import { BackButtonComponent } from './back-button/back-button.component';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
@@ -16,6 +17,8 @@ import { AppComponent } from './app.component';
   imports: [BrowserModule, IonicModule.forRoot(), AppRoutingModule],
   providers: [
     StatusBar,
+    BackButtonComponent,
+    CardComponent,
     SplashScreen,
     { provide: RouteReuseStrategy, useClass: IonicRouteStrategy }
   ],
