@@ -1,0 +1,7 @@
+{
+  "name": "MyPerfyl",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
