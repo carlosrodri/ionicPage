@@ -1,0 +1,7 @@
+{
+  "name": "perfyl",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
